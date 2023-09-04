@@ -16,6 +16,12 @@ function Home() {
             <Pressable onPress={() => navigation.navigate('Search')} style={styles.wrapper}>
                 <Text>Search Page {">"}</Text>
             </Pressable>
+            <Pressable onPress={() => navigation.navigate('PickerOfWheel')} style={styles.wrapper}>
+                <Text>PickerOfWheel Page {">"}</Text>
+            </Pressable>
+            <Pressable onPress={() => navigation.navigate('DateTimePicker')} style={styles.wrapper}>
+                <Text>DateTimePicker Page {">"}</Text>
+            </Pressable>
         </SafeAreaView>
     )
 }
